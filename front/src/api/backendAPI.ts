@@ -1,11 +1,11 @@
 /**
  * Real Django Backend API Client
- * Base URL: http://localhost:8000/api/
+ * Base URL://sdu-dorm.onrender.com/api/
  */
 
 import { storage } from '../utils/storage';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://sdu-dorm.onrender.com/api';
 
 // Helper function to get auth token from storage
 const getAuthToken = (): string | null => {
